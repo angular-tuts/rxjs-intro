@@ -1,0 +1,12 @@
+<div *ngFor="let user of users$ | async">
+    {{ user.name }}
+</div>
+
+<br />
+<div *ngFor="let name of usernames$ | async">
+    {{ name }}
+</div>
+
+
+<h1>Behavior Subject</h1>
+<div *ngIf="usersbehavior$ | async as user"> {{ user.name }}</div>
