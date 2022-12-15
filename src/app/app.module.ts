@@ -3,12 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AsyncPipeExampleComponent } from './async-pipe-example/async-pipe-example.component';
+import { ObservablesComponent } from './components/observables/observables.component';
+import { OperatorsComponent } from './components/operators/operators.component';
+import { GoingReactiveComponent } from './components/going-reactive/going-reactive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-  AsyncPipeExampleComponent
+    ObservablesComponent,
+    OperatorsComponent,
+    GoingReactiveComponent,
+
   ],
   imports: [
     BrowserModule,
