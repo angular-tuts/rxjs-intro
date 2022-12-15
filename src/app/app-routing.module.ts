@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AsyncPipeExampleComponent } from './async-pipe-example/async-pipe-example.component';
+import { ObservablesComponent } from './components/observables/observables.component';
+import { OperatorsComponent } from './components/operators/operators.component';
 
 const routes: Routes = [
-  { path: '', component: AsyncPipeExampleComponent }
+{ path: 'observables', component: ObservablesComponent },
+{ path: 'operators', component: OperatorsComponent }
 ];
 
 @NgModule({
